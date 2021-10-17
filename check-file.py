@@ -8,3 +8,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+filename = "/etc/hosts"
+if os.path.exists(filename) and os.path.isfile(filename):
+    print("File exists")
+else:
+    print("File doesn't exist")
