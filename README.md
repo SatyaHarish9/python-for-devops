@@ -15,3 +15,6 @@ Platform Module:
 
 Platform module can be used to access the underlying data such as operating system interpreter version and the hardware.
 
+getpass Module:
+
+GetPass Module can be used to get information about users and passwords.
