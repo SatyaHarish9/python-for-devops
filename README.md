@@ -18,3 +18,11 @@ Platform module can be used to access the underlying data such as operating syst
 getpass Module:
 
 GetPass Module can be used to get information about users and passwords.
+
+Regular expressions:
+
+\d ---> Matches any digit.
+. ---> Matches anything except new line.
+
+Character Class [] ---> If you would like to match a specific class
+{k} --> exact k number of occurences.
