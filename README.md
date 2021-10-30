@@ -26,3 +26,15 @@ Regular expressions:
 
 Character Class [] ---> If you would like to match a specific class
 {k} --> exact k number of occurences.
+
+^ - start of line
+$ - end of line
+
+\s ---> It points to space.
+
+\w : sequence of word-like characters [a-zA-Z0–9_] that are not space
+\d: Any numeric digit[0–9]
+\s: whitespace characters(space,newline,tab)
+\D: match characters that are NOT numeric digits
+\W: match characters that are NOT words,digit or underscore
+\S: match characters that are NOT spaces,tab or newline
